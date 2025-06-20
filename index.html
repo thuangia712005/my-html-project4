@@ -2,40 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Accessible Demo Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessible Sample Site</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Skip Link -->
+  <!-- Skip to Main Content -->
   <a href="#maincontent" class="skip-link">Skip to Main Content</a>
 
   <!-- Navigation -->
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <!-- Main Content -->
   <main id="maincontent">
-    <h1>Welcome to My Accessible Site</h1>
+    <h1>Welcome to My Accessible Website</h1>
     <section>
-      <h2>Why Accessibility Matters</h2>
-      <p>This demo page implements skip links, semantic HTML5, and WAVE-approved contrast to support all users.</p>
+      <h2>Introduction</h2>
+      <p>This site demonstrates web accessibility, grid and flex layouts, and modern styling using CSS.</p>
     </section>
 
-    <section class="grid-layout">
-      <img src="images/img1.jpg" alt="Forest trail with sunlight" />
-      <img src="images/img2.jpg" alt="Mountain sunrise landscape" />
-      <img src="images/img3.jpg" alt="Peaceful river in valley" />
+    <section class="grid-section">
+      <h2>Image Gallery</h2>
+      <div class="gallery">
+        <img src="images/img1.jpg" alt="Sunset over mountains" />
+        <img src="images/img2.jpg" alt="City skyline at dusk" />
+        <img src="images/img3.jpg" alt="Calm lake with reflection" />
+        <img src="images/img4.jpg" alt="Forest path in fall" />
+        <img src="images/img5.jpg" alt="Ocean waves crashing" />
+      </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Accessible Demo Site</p>
+    <p>&copy; 2025 My Accessible Site</p>
   </footer>
 </body>
 </html>

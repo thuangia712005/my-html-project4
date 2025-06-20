@@ -2,31 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Home Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Accessible Site</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Skip Link -->
   <a href="#maincontent" class="skip-link">Skip to Main Content</a>
 
+  <!-- Navigation -->
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 
-  <main id="maincontent" class="grid-layout">
+  <!-- Main Content -->
+  <main id="maincontent">
+    <h1>Welcome to My Accessible Site</h1>
     <section>
-      <h1>Welcome to My Website</h1>
-      <p>This is the home page of our project site.</p>
-      <img src="images/img1.jpg" alt="Sample image" />
+      <h2>About This Website</h2>
+      <p>This project demonstrates accessibility and CSS layout techniques.</p>
     </section>
-    <section>
-      <p>Another section of content using grid layout.</p>
-      <img src="images/img2.jpg" alt="Another image" />
+
+    <!-- Grid Section -->
+    <section class="grid-layout">
+      <img src="images/img1.jpg" alt="Mountain landscape at sunrise" />
+      <img src="images/img2.jpg" alt="Close-up of colorful flowers" />
+      <img src="images/img3.jpg" alt="City skyline at night" />
     </section>
   </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Site. All rights reserved.</p>
+  </footer>
 </body>
 </html>
